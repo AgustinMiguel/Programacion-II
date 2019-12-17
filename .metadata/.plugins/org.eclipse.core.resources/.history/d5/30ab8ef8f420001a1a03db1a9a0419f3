@@ -1,0 +1,7 @@
+
+public class Libro {
+	protected String nombre;
+	protected String autor;
+	protected String resumen;
+	protected ArrayList<String>
+}

@@ -1,0 +1,8 @@
+import java.util.ArrayList;
+
+public abstract class Abs {
+	protected ArrayList<Niño> niños;
+	public void addNiño(Niño niño){
+		this.niños.add(niño);
+	}
+}

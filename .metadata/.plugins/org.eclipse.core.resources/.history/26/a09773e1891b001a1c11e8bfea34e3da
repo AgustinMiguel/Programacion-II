@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Region extends Abs {
+	protected String nombre;
+	public Region(String nombre){
+		this.nombre = nombre;
+		this.niños = new ArrayList<Niño>();
+	}
+	public void addNino(Niño niño){
+		this.niños.add(niño);
+		niño.barrio = this;
+	}
+	@Override
+	public void depositar(Carta carta) {
+		// TODO Auto-generated method stub
+		
+	}
+}

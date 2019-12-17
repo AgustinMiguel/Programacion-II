@@ -1,0 +1,4 @@
+
+public class CategoriaVentasAnuales extends Categoria {
+	protected int ventas;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Divicion&apos; to &apos;Division&apos;&#x0D;&#x0A;- Original project: &apos;Prefinal2018&apos;&#x0D;&#x0A;- Original element: &apos;Divicion&apos;&#x0D;&#x0A;- Renamed element: &apos;Division&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Divicion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Divicion.java[Divicion" matchStrategy="1" name="Division" qualified="false" references="true" similarDeclarations="false" stamp="1575315104123" textual="false" version="1.0"/>
+</session>

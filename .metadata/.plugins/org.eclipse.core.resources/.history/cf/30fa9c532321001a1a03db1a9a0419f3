@@ -1,0 +1,12 @@
+
+public class CategoriaVentasAnuales extends Categoria {
+	protected int ventas;
+	public CategoriaVentasAnuales(int ventas){
+		this.ventas = ventas;
+	}
+	@Override
+	public boolean seCumple(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}

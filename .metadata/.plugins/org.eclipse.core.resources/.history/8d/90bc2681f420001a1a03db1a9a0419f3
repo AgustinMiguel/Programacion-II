@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class Libreria {
+	protected ArrayList<Cliente> clientes;
+	protected ArrayList<Categoria> categorias;
+	protected ArrayList<Libro> libros;
+	
+	public double cobrar(Cliente cliente, Libro libro){
+		
+	}
+}

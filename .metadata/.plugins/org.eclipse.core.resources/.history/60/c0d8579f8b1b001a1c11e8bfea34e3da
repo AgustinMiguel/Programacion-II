@@ -1,0 +1,23 @@
+
+public class Niño {
+	protected String nombre;
+	protected int dni;
+	protected Region barrio;
+	public Niño(String nombre, int dni){
+		this.nombre = nombre;
+		this.dni = dni;
+	}
+	
+	public void entregarCarta(Carta carta){
+		this.barrio.depositar(carta);
+	}
+	
+	public boolean equals(Niño niño){
+		if((this.nombre == niño.nombre)&&(this.dni==niño.dni)){
+			return true
+		}
+		else{
+			return false;
+		}
+	}
+}

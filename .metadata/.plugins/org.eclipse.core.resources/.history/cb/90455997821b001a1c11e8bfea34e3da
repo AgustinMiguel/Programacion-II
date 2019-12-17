@@ -1,0 +1,9 @@
+
+public class Niño {
+	protected String nombre;
+	protected int dni;
+	public Niñi(String nombre, int dni){
+		this.nombre = nombre;
+		this.dni = dni;
+	}
+}

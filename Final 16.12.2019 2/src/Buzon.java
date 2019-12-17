@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class Buzon extends Abs {
+	protected HashSet<Carta> cartas;
+	public Buzon(){
+		this.cartas= new HashSet<Carta>();
+		this.niños = new ArrayList<Niño>();
+	}
+	public void depositar(Carta carta) {
+		if(niñoBueno(carta.remitente)){
+			this.cartas.add(carta);
+		}
+		else{
+			carta.carbonizar();
+			this.cartas.add(carta);
+		}
+	}
+	
+	private boolean niñoBueno(Niño niño){
+		for (Niño n: this.niños){
+			if(n.equals(niño)){
+				return true;
+			}
+		}
+		return false;
+	}
+}

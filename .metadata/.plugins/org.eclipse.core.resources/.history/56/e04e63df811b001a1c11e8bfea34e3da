@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+
+public class Buzon extends Abs {
+	protected HashSet<Carta> cartas;
+	public Buzon(){
+		this.cartas= new Set<Carta>();
+		this.niños = new ArrayList<Niño>();
+	}
+}

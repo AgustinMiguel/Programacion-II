@@ -1,0 +1,7 @@
+
+public class CongeladoAgua extends ProductoRefrigerado {
+	protected LocalDate fechaEnv;
+	protected int codigo;
+	protected String origen;
+	
+}

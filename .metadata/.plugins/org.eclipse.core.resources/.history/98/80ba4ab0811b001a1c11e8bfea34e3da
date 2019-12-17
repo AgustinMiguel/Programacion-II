@@ -1,0 +1,9 @@
+import java.util.Set;
+
+public class Buzon extends Abs {
+	protected Set<Carta> cartas;
+	public Buzon(){
+		this.cartas= new Set<Carta>();
+		this.niños = new ArrayList<Niño>();
+	}
+}

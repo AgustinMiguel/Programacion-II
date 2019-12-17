@@ -1,0 +1,4 @@
+
+public class Niño {
+	protected int dni;
+}

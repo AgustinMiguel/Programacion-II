@@ -1,0 +1,10 @@
+
+public class CategoriaAntiguedad extends Categoria {
+	protected int antiguedad;
+	
+	public boolean seCumple(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

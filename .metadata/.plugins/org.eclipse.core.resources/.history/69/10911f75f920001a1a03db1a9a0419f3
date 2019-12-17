@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class Cliente {
+	protected String nombre;
+	protected ArrayList<String> generos;
+	protected ArrayList<Compra> compras;
+	public Cliente(String nombre){
+		this.nombre = nombre;
+		this.generos = new ArrayList<String>();
+	}
+	public boolean acepta(Libro libro){
+		for(String g: generos){
+			if(libro.esGenero(g)){
+				return true;
+			}
+		}
+		return false;
+	}
+}

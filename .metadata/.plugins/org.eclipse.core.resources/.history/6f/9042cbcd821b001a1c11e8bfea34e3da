@@ -1,0 +1,11 @@
+
+public class Niño {
+	protected String nombre;
+	protected int dni;
+	public Niño(String nombre, int dni){
+		this.nombre = nombre;
+		this.dni = dni;
+	}
+	
+	public void entregarCarta(Buzon)
+}

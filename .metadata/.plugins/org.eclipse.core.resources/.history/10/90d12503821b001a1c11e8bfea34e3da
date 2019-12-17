@@ -1,0 +1,8 @@
+
+public class Region extends Abs {
+	protected String nombre;
+	public Region(String nombre){
+		this.nombre = nombre;
+		this.niños = new ArrayListo<Niño>();
+	}
+}

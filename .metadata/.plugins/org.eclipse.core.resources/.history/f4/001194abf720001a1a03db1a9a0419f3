@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+
+public class ClienteExigente extends Cliente{
+
+	public ClienteExigente(String nombre) {
+		super(nombre);
+	}
+	public boolean acepta(Libro libro){
+		boolean resultado = true;
+		int i = 0;
+		while(((i<this.generos.size())&&(resultado==true))){
+			
+		}
+
+	}
+}

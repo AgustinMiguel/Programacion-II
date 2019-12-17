@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class Region extends Abs {
+	protected String nombre;
+	protected ArrayList<Abs> regiones;
+	public Region(String nombre){
+		this.nombre = nombre;
+		this.niños = new ArrayList<Niño>();
+		this.regiones = new ArrayList<Abs>();
+	}
+	public void addNino(Niño niño){
+		this.niños.add(niño);
+		niño.barrio = this;
+	}
+	public void depositar(Carta carta) {
+		for(Abs r: regiones){
+			r.depositar(carta);
+		}
+	}
+}

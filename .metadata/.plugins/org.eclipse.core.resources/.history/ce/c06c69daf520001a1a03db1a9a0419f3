@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Cliente {
+	protected String nombre;
+	protected ArrayList<String> generos;
+	public Cliente(String nombre){
+		this.nombre = nombre;
+		this.generos = new ArrayList<String> generos;
+	}
+	public boolean acepta(Libro libro){
+		for(String g: generos){
+			
+		}
+	}
+}

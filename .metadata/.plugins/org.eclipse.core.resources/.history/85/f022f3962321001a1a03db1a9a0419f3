@@ -1,0 +1,5 @@
+
+public class CategoriaVip extends Categoria {
+	public CategoriaVip(){
+	}
+}

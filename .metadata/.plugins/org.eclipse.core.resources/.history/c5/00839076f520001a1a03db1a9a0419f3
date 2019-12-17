@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+
+public class Cliente {
+	protected String nombre;
+	protected ArrayList<String> generos;
+	public boolean acepta(Libro libro){
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;region&apos; to &apos;Region&apos;&#x0D;&#x0A;- Original project: &apos;Parcialito4&apos;&#x0D;&#x0A;- Original element: &apos;region&apos;&#x0D;&#x0A;- Renamed element: &apos;Region&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;region&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{region.java[region" matchStrategy="1" name="Region" qualified="false" references="true" similarDeclarations="false" stamp="1572117120980" textual="false" version="1.0"/>
+</session>

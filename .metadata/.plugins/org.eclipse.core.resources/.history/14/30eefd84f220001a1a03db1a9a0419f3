@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Playlist extends ElementoMusica {
+	protected List<ElementoMusica> tracks;
+	public Playlist(String titulo) {
+		this.titulo = titulo;
+		this.tracks = new ArrayList<ElementoMusica>();
+	}
+	public void addTrack(ElementoMusica track){
+		this.tracks.add(track);
+	}
+	public void Swap(Track track1, Track track2){
+		Collections.swap(this.tracks, track1, track2);
+	}
+	public double getDuracion() {
+		double duracionTotal = 0;
+		for(ElementoMusica t: tracks){
+			duracionTotal += t.getDuracion();
+		}
+		return duracionTotal;
+	}
+	public int getCantidad() {
+		int cantidad=0;
+		for(ElementoMusica t: tracks){
+			cantidad += t.getCantidad(); 
+		}
+		return cantidad;
+	}
+	public boolean deleteTrack(Track track) {
+		boolean loBorro= tracks.remove(track);
+		if(!loBorro){
+			for(int i=0;i < tracks.size()&&!loBorro;i++){
+				loBorro = tracks.get(i).deleteTrack(track);
+			}
+		}
+		return loBorro;
+	}
+	
+	public ArrayList<Track> getTracksList() {
+		ArrayList <Track> playList = new ArrayList<Track>();
+		for (ElementoMusica e : tracks){
+			playList.addAll(e.getTracksList());
+		}
+		return playList;
+	}
+}

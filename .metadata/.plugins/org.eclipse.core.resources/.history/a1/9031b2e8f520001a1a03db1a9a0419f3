@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+
+public class Libro {
+	protected double precio;
+	protected String nombre;
+	protected String autor;
+	protected String resumen;
+	protected ArrayList<String> generos;
+}

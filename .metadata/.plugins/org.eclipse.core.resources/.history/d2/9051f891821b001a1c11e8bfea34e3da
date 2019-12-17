@@ -1,0 +1,5 @@
+
+public class Niño {
+	protected String nombre;
+	protected int dni;
+}

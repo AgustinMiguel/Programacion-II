@@ -1,0 +1,15 @@
+
+public class ClienteExigente extends Cliente{
+
+	public ClienteExigente(String nombre) {
+		super(nombre);
+	}
+	public boolean acepta(Libro libro){
+		for(String g: generos){
+			if(libro.esGenero(g)){
+				return true;
+			}
+		}
+		return false;
+	}
+}

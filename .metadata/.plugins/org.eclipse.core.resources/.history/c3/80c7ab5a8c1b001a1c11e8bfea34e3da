@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Carta {
+	protected Niño remitente;
+	protected ArrayList<String> regalos;
+	public Carta(Niño niño){
+		this.remitente = niño;
+		this.regalos = new ArrayList<String>();
+	}
+	public ArrayList<String> carbonizar(){
+		ArrayList<String> carbon = new ArrayList<String>();
+		carbon.add("Trozo de carbon");
+		this.regalos = carbon;
+	}
+}
